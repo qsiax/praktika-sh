@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Jost', sans-serif;
+}
+body {
+	overflow-x: hidden;
+	color: #020202;
+	background: #fff;
+	min-height: 100vh;
+	overflow: hidden;
+	font-family: 'Jost', sans-serif;
+}
+.container {
+	max-width: 1760px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	color: #020202;
+	cursor: pointer;
+}
+#error {
+	width: 100%;
+	color: red;
+	font-size: 1em;
+}
+.error-span {
+	width: 100%;
+	color: red;
+	font-size: 1em;
+}
+
+
+.header {
+
+}
+.header-body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #fff;
+	margin-top: 28px;
+	padding-bottom: 10px;
+}
+.container {
+}
+
+
+.box {
+	display: flex;
+	align-items: center;
+}
+.logo-text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 120%;
+	text-align: center;
+	text-transform: uppercase;
+	max-width: 160px;
+	cursor: pointer;
+}
+.btn {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 120%;
+	cursor: pointer;
+	transition: .3s ease;
+
+}
+.btn:hover {
+	color: #E72640;
+}
+.mr50 {
+	margin-right: 50px;
+}
+
+.main {
+	min-height: 100vh; 
+}
+.main-body {
+	display: flex;
+	flex-direction: column;
+}
+.main-box {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 128px;
+}
+.main-box-sign {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 128px;
+}
+.main-title {
+	font-weight: 500;
+	font-size: 96px;
+	line-height: 100%;
+	text-transform: uppercase;
+	max-width: 706px;
+}
+.main-heading {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 120%;
+}
+.main-btn {
+	margin-top: 65px;
+	margin-left: 40px;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 120%;
+	text-decoration-line: underline;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition: .3s ease;
+}
+.main-btn:hover {
+	color: #E72640;
+}
+.main-btn span {
+	width: 24px;
+	height: 24px;
+	margin-left: 10px;
+	background: url(/img/arrow.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main img {
+	margin-top: 150px;
+}
+.main-text {
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 120%;
+	max-width: 210px;
+}
+.main-box {
+	position: relative;
+}
+.main-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.registration {
+	width: 350px;
+	background-color: none;
+	border-radius: 30px;
+	transition: .5s ease;
+	margin-top: 30px;
+}
+.registration-title {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 38px;
+	margin-bottom: 20px;
+	margin-top: 140px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+button {
+	width: 100%;
+	height: 60px;
+	border: none;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 19px;
+	margin-top: 60px;
+	background: #E72640;
+	color: #fff;
+}
+input {
+	border: none;
+	background: none;
+	outline: none;
+	margin-top: 20px;
+	height: 50px;
+	font-size: 20px;
+	background: #EAEAEA;
+	padding-left: 20px;
+}
+input::placeholder {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 16px;
+	font-family: 'Jost', sans-serif;
+}
+.close {
+	position: absolute;
+	top: 45px;
+	right: 70px;
+	cursor: pointer;
+}
+.login {
+	width: 350px;
+	height: 450px;
+	margin-top: 30px;
+	transition: .5s ease;
+}
+.login-body {
+}
+.close {
+}
+.login-title {
+	font-weight: 400;
+	font-size: 36px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
